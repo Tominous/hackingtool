@@ -153,8 +153,8 @@ class HackingToolsCollection(object):
 
     def show_info(self):
         os.system("figlet -f standard -c {} | lolcat".format(self.TITLE))
-        # os.system(f'echo "{self.DESCRIPTION}"|boxes -d boy | lolcat')
-        # print(self.DESCRIPTION)
+         os.system(f'echo "{self.DESCRIPTION}"|boxes -d boy | lolcat')
+         print(self.DESCRIPTION)
 
     def show_options(self, parent = None):
         clear_screen()

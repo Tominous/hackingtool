@@ -23,9 +23,9 @@ class Pixload(HackingTool):
     PROJECT_URL = "https://github.com/chinarulezzz/pixload"
 
     def __init__(self):
-        # super(Pixload, self).__init__([
-        #     ('How To Use', self.show_project_page)
-        # ], runnable = False)
+         super(Pixload, self).__init__([
+             ('How To Use', self.show_project_page)
+         ], runnable = False)
         super(Pixload, self).__init__(runnable = False)
 
 

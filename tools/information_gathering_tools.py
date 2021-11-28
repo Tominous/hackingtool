@@ -33,8 +33,8 @@ class Dracnmap(HackingTool):
     RUN_COMMANDS = ["cd Dracnmap;sudo ./dracnmap-v2.2.sh"]
     PROJECT_URL = "https://github.com/Screetsec/Dracnmap"
 
-#    def __init__(self):
-#        super(Dracnmap, self).__init__(runnable = False)
+    def __init__(self):
+        super(Dracnmap, self).__init__(runnable = False)
 
 
 class PortScan(HackingTool):
@@ -96,8 +96,8 @@ class ReconSpider(HackingTool):
     RUN_COMMANDS = ["cd reconspider;python3 reconspider.py"]
     PROJECT_URL = "https://github.com/bhavsec/reconspider"
 
-#    def __init__(self):
-#        super(ReconSpider, self).__init__(runnable = False)
+    def __init__(self):
+        super(ReconSpider, self).__init__(runnable = False)
 
 
 class IsItDown(HackingTool):
